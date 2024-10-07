@@ -1,0 +1,108 @@
+/* Seccion titular*/
+main{
+    margin-bottom:40px;
+}
+
+.container{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.estilo-boton{
+    padding:10px;
+    border:1px solid #fa5639;
+    color:white;
+    background-color:#fa5639;
+    text-decoration:none;
+
+    &:hover{
+        background-color:transparent;
+        color:#fa5639;
+    }
+}
+
+
+
+.titular{
+    padding:50px 10px 50px 10px;
+    background-image:url("../images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #999;
+    background-blend-mode: multiply;
+    color:white;
+}
+
+.redes-sociales{
+    margin-top:20px;
+    display:flex;
+    gap:20px;
+    a{
+    
+    color:white;
+   
+    font-size:30px;
+    
+    text-decoration:none;
+    }
+}
+
+/* Servicios */
+
+.servicios{
+   
+    
+
+    article{
+        border-bottom:2px solid #aaa;
+        margin-bottom:40px;
+        padding-bottom:20px;
+    }
+
+    h2{
+    text-align:center;
+    }
+
+    .fa-cogs, .fa-truck, .fa-heart{
+        border:1px solid #fa5639;
+        color:#fa5639;
+        padding:10px;
+    }
+}
+
+/* Sobre Nosotros*/
+
+.sobre-nosotros{
+   
+
+    h2{
+        text-align:center;
+        margin-bottom:20px;
+    }
+}
+
+.imagen-about{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+.marco{
+    border:3px solid #fa5639;
+    transition: 1s;
+    transform: rotateZ(10deg);
+    width:40vh;
+    
+
+    img{
+        transform: rotateZ(-10deg);
+        width:40vh;
+    }
+}
+}
+
+.leer-mas{
+    color:#fa5923;
+    text-decoration:none;
+}
+

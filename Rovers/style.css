@@ -1,0 +1,13 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+@import url("partials/nav.css");
+@import url("partials/main.css");
+@import url("partials/footer.css");
+@import url("partials/media_desktop.css");
+
+body{
+    display:block;
+    margin:0px;
+    padding:0px;
+}
+
+
